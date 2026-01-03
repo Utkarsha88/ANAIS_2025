@@ -11,6 +11,13 @@ This notebook provides a practical introduction to Transformers, covering both f
 #### Generative Models Lab
 This notebook provided a practical introduction to generative models, focusing on two main areas: Flow Matching with TorchCFM and the mathematical foundations of generative processes. In the first part, we debugged and implemented a flow-matching model to learn a vector field mapping a source distribution (e.g., 8-component Gaussian mixture) to a target distribution (e.g., two moons or Swiss roll), generating new samples through training a neural network to approximate the conditional flow. The second part delved into the mathematical underpinnings, exploring practical implementations of Gaussian sampling using the Box-Muller transform, understanding uniform random number generation, and investigating Stochastic Differential Equations (SDEs). We learned about the Euler-Maruyama integrator, its components like drift and diffusion, and observed how noise affects particle trajectories and long-time behavior in SDE simulations. Finally, we touched upon score matching basics, understanding the necessity and methods for estimating score functions in generative models.
 
+
+### Day_3
+No lab
+
+### Day_4 
+Hike Day
+
 ### Day_5
 #### Agents lab-ANAIS
 This notebook introduces the concept of LLM-powered agents by building a flight booking agent. It covers setting up the environment, defining data classes for Date, UserProfile, and Flight, populating databases with user and flight information, and then implementing a set of tools (get_user_info, fetch_flight_info, book_flight, file_ticket). Finally, it demonstrates an agent loop that uses these tools to process user queries related to flight booking.
